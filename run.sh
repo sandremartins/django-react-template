@@ -28,5 +28,5 @@ Repository:
 │   ├── README.md
 │   ├── src
 │   └── yarn.lock
-├── LICENSE
+├── LICENSEd
 └── README.md
