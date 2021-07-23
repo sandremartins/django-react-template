@@ -30,3 +30,5 @@ Repository:
 │   └── yarn.lock
 ├── LICENSEd
 └── README.md
+
+yarn add redux react-redux redux-thunk connected-react-router
