@@ -32,3 +32,11 @@ Repository:
 └── README.md
 
 yarn add redux react-redux redux-thunk connected-react-router
+
+ pip install djangorestframework==3.11.2
+ pip install markdown
+ pip install django-filter
+ pip install djoser
+ pip3 freeze > requirements.txt
+
+ 
