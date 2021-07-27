@@ -22,4 +22,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-urlpatterns += accounts_urlpatterns
+urlpatterns += accounts_urlpatterns # URLs for authentication
