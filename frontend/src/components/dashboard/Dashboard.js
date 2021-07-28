@@ -1,5 +1,3 @@
-// frontend/src/components/dashboard/Dashboard.js
-
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
@@ -7,6 +5,9 @@ import { withRouter } from "react-router-dom";
 
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { logout } from "../login/LoginActions";
+
+import NotesList from "../notes/NotesList";
+import AddNote from "../notes/AddNote";  
 
 class Dashboard extends Component {
   onLogout = () => {
@@ -27,8 +28,9 @@ class Dashboard extends Component {
             <Nav.Link onClick={this.onLogout}>Logout</Nav.Link>
           </Navbar.Collapse>
         </Navbar>
-        <Container>
-          <h1>Dashboard</h1>
+        <Container> 
+          <NotesList />
+          <AddNote />
         </Container>
       </div>
     );
